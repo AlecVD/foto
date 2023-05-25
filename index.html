@@ -6,23 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!-- <script src="/script/images.js"></script> -->
+    <script src="/script/images.js"></script>
     <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
     <title>AlecVD</title>
 </head>
 <body class="font-mono">
 
-    <div id="main">
-        <img class="mx-auto w-auto" src="images/water.jpg" alt="">
-        <div class="flex flex-row">
-            <img src="images/llama-square.jpg" alt="">
-            <img src="images/rainbow-square.jpg" alt="">
-        </div>
-        <div id="img-container" class="w-full p-5 pb-10 mx-auto mb-10 gap-5 columns-3 space-y-5">
-        </div>
-    </div>
-
-    <div class="fixed top-0" id="footer">
+    <div id="header" class="w-full fixed -bottom-6 hover:-bottom-0 ease-in-out duration-500">
         <div class="p-4 flex flex-auto">
             <div class="text-4xl">Alec van Dijken</div>
             <div class="text-center">Foto</div> 
@@ -31,5 +21,11 @@
             <h1>Contact Me</h1>
         </div>
     </div> 
+
+    <div id="main">
+        <div id="img-container" class="w-full pb-16 grid grid-cols-4">
+            <!-- CC Image 75% sRGB 75ppi 1500px -->
+        </div>
+    </div>
 </body>
 </html>
