@@ -1,2 +1,3 @@
-# Foto (https://alecvd.github.io/foto/)
-HTML CSS JS Tailwind
+# Foto
+
+Just a simple single page site using Tailwind
